@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset ="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" width="device-width, initial scale=1.0">
+        <title>SPOTIFY-your music is here</title>
+        <link rel="stylesheet" href="spotify.css">
+        </head>
+        <body>
+            <div class="nav">
+            <nav>
+                <ul>
+                    <li class="brand"><img src="icon.png" alt="Spotify" width="80px" height="80px" >Spotify</li>
+                    <li>Home</li>
+                    <li>Your Profile</li>
+                    <li>Explore Premium</li>                    
+                    <li><div class="input-container">
+                     <!--<i class="fa-light fa-magnifying-glass"></i>-->
+                        <input type="text" id="input-box" placeholder="What do you want to play?">
+                    </div>
+                    </li>
+                </ul>
+                
+            </nav>
+            </div>
+
+            <div class="container1">
+                <div class="Songlist">
+                    <span class="verified"><i class="fa-solid fa-circle-check"></i> Verified Artist</span>
+                    <h1>Anne-Marie</h1>
+                    <p>33,592,712 monthly listeners </p>
+                    <div>
+                    <div class="anne">
+                        <i id="1" class="fa-solid fa-play"></i>
+                        <img src="Rockabye.png" alt="Rockabye" height="50px" width="50px">
+                        <span>Rockabye</span>
+                        <span><p>                                     </p></span>
+                        <span>4:11</span>
+                    </div>
+                    <div class="anne">
+                        <i id="2" class="fa-solid fa-play"></i>
+                        <img src="Our Song.png" alt="Our Song" height="50px" width="50px">
+                        <span>Our Song</span>
+                        <span><p>                                     </p></span>
+                        <span>2:43</span>     
+                    </div>
+                    <div class="anne">
+                        <i id="3" class="fa-solid fa-play"></i>
+                        <img src="Ciao Adios.png" alt="ciao adios" height="50px" width="50px">
+                        <span>Ciao Adios</span>
+                        <span><p>                                     </p></span>
+                        <span>3:19</span> 
+                    </div>
+                    <div class="anne">
+                        <i id="4" class="fa-solid fa-play"></i>
+                        <img src="SAD B!TCH.png" alt="SAD B!TCH" height="50px" width="50px">
+                        <span>SAD B!TCH</span>
+                        <span><p>                                     </p></span>
+                        <span>2:12</span>
+                    </div>
+                    <div class="anne">
+                        <i id="5" class="fa-solid fa-play"></i>
+                        <img src="PSYCHO.png" alt="PSYCHO" height="50px" width="50px">
+                        <span>PSYCHO</span>
+                        <span><p>                                     </p></span>
+                        <span>2:42</span>
+                    </div>
+                    </div>
+                </div>
+                <div class="Songbanner"></div>
+            </div>
+        
+            <div class="container2">
+                <div class="Songlist">
+                    <span class="verified"><i class="fa-solid fa-circle-check"></i> Verified Artist</span>
+                    <h1>Dua Lipa</h1>
+                    <p>74,557,196 monthly listeners</p>
+                    <div>
+                    <div class="anne">
+                        <i id="6" class="fa-solid fa-play"></i>
+                        <img src="Levitating.png" alt="Levitating" height="50px" width="50px">
+                        <span>Levitating</span>
+                        <span><p>                                     </p></span>
+                        <span>3:23</span>
+                    </div>
+                    <div class="anne">
+                        <i id="7" class="fa-solid fa-play"></i>
+                        <img src="New Rules.png" alt="New Rules" height="50px" width="50px">
+                        <span>New Rules</span>
+                        <span><p>                                     </p></span>
+                        <span>3:29</span>     
+                    </div>
+                    <div class="anne">
+                        <i i="8" class="fa-solid fa-play"></i>
+                        <img src="Be The One.png" alt="Be The One" height="50px" width="50px">
+                        <span>Be The One</span>
+                        <span><p>                                     </p></span>
+                        <span>3:22</span> 
+                    </div>
+                    <div class="anne">
+                        <i id="9" class="fa-solid fa-play"></i>
+                        <img src="Houdini.png" alt="Houdini" height="50px" width="50px">
+                        <span>Houdini</span>
+                        <span><p>                                     </p></span>
+                        <span>3:05</span>
+                    </div>
+                    <div class="anne">
+                        <i id="10" class="fa-solid fa-play"></i>
+                        <img src="Training Season.png" alt="Training Season" height="50px" width="50px">
+                        <span>Training Season </span>
+                        <span><p>                                     </p></span>
+                        <span>3:29</span>
+                    </div>
+                    </div>
+                </div>
+                <div class="Songbanner"></div>
+            </div>
+            <div class="bottom">
+                <input type="range" name="range" id="myProgressBar" min="0" max="60" value="0">       
+                <div class="icons">
+                    <!--font-aweome icons-->
+                    <i id="shuffleButton" class="fa-solid fa-shuffle"></i>
+                    <i id="backwardButton" class="fa-solid fa-backward-step fa-2x"></i>
+                    <i id="masterPlay" class="fa-solid fa-play fa-2x"></i>
+                    <i id="forwardButton" class="fa-solid fa-forward-step fa-2x"></i>
+                    <i id="loopButton" class="fa-solid fa-repeat"></i>
+
+                </div>
+                <div class="songInfo">
+                    <img src="waves.gif" height="40px" width="40px" id="gif" style="visibility:hidden;" >
+                    <span id="masterSongName">Currently Playing:  </span>
+
+                </div>
+                <span class="sound">
+                    Vol
+                    <i class="fa-solid fa-volume-high"></i>
+                    <input type="range" name="range" id="myProgressBar2" min="0" max="8" value="0"> 
+                </span>
+
+
+            </div>
+            <script src="spotify.js"></script>
+            <script src="https://kit.fontawesome.com/ee46b35c18.js" crossorigin="anonymous"></script>
+        </body>
+</html>
